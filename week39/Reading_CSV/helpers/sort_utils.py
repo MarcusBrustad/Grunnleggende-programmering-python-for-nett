@@ -27,8 +27,8 @@ def sort_by_name_no_lambda(data):
 
 
 
-def sort_by_name_actually_no_lambda(data):
-    return sorted(data, key=str.__getitem__("Navn"))
+# def sort_by_name_actually_no_lambda(data):
+#     return sorted(data, key=str.__getitem__("Navn"))
 
 
 
